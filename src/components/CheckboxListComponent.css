@@ -1,0 +1,13 @@
+/* src/components/CheckboxListComponent.css */
+.checkbox-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .custom-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  

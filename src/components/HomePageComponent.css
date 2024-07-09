@@ -1,0 +1,26 @@
+/* src/components/HomePageComponent.css */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.item span {
+  margin-right: 200px;
+}
+
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
